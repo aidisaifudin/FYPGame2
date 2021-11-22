@@ -26,8 +26,6 @@ public class ElevatorScript : MonoBehaviour
 
             
 
-            Time.timeScale = 0;
-
         }
     }
     private void OnTriggerExit(Collider other)
