@@ -23,11 +23,11 @@ public class ElevatorScript : MonoBehaviour
 
             anim.SetBool("Up", true);
             Debug.Log("Play");
-<<<<<<< Updated upstream
+
             
-=======
+
             Time.timeScale = 0;
->>>>>>> Stashed changes
+
         }
     }
     private void OnTriggerExit(Collider other)
