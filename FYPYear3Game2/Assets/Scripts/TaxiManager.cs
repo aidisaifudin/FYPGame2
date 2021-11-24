@@ -8,7 +8,6 @@ public class TaxiManager : MonoBehaviour
 
 
     public Transform passenger;
-    public Transform camera;
 
     public GameObject destination;
     public bool destinationReached;
