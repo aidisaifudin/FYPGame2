@@ -1,14 +1,10 @@
 
 using UnityEngine;
 
-<<<<<<< Updated upstream
+
 [CreateAssetMenu(fileName = "New NPC", menuName = "NPC/New NPC")]
-public class NPC : MonoBehaviour
-=======
-[CreateAssetMenu(fileName = "NPC", menuName = "Character")]
-public class NPC :ScriptableObject
->>>>>>> Stashed changes
-{
+public class NPC : ScriptableObject { 
+
   
         public int npcID;
         public string npcName;
