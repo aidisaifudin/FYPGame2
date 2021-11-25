@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e82dd3be39c38844858b73d66050457, type: 3}
   m_Name: SecondPerson
   m_EditorClassIdentifier: 
-  m_CharacterName: 
+  m_CharacterName: Bob
+  sprite:
+  - {fileID: -6347329235798429006, guid: f215fb59e03652b4382fc3e9823d2dd7, type: 3}
