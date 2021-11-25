@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "New NPC", menuName ="NPC/New NPC")]
+[CreateAssetMenu(fileName = "New Dialogue", menuName ="Dialogue / New Dialogue")]
 public class DIalogueData : NPC
 {
     // Start is called before the first frame update
