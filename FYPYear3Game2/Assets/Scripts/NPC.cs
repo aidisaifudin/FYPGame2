@@ -1,16 +1,19 @@
 
 using UnityEngine;
 
+<<<<<<< Updated upstream
 [CreateAssetMenu(fileName = "New NPC", menuName = "NPC/New NPC")]
 public class NPC : MonoBehaviour
+=======
+[CreateAssetMenu(fileName = "NPC", menuName = "Character")]
+public class NPC :ScriptableObject
+>>>>>>> Stashed changes
 {
-    [System.Serializable]
-    public class Dialogue : ScriptableObject
-    {
+  
         public int npcID;
         public string npcName;
         public Message[] messages;
-    }
+    
 
     [System.Serializable]
     public class Message
