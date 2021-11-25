@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New NPC", menuName = "NPC/New NPC")]
+[CreateAssetMenu(fileName = "New Character", menuName = "Character")]
 public class NPC : MonoBehaviour
 {
     [System.Serializable]
