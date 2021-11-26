@@ -6,17 +6,12 @@ using UnityEngine;
 public class DialogueObject : ScriptableObject
 {
     [SerializeField] [TextArea] private string[] dialogue;
+    [SerializeField] private Response[] responses;
 
     public string[] Dialogue => dialogue;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool HasResponses => Responses != null && Responses.Length > 0;
+    public Response[] Responses => responses;
+
+ 
 }

@@ -13,6 +13,7 @@ public class DIalogueData : MonoBehaviour
     [SerializeField] private TMP_Text textLabel;
     [SerializeField] private DialogueObject testDialogue;
     private TypeWritterEffect typeWritterEffect;
+    private ResponseHandler responseHandler;
 
     private void Start()
     {
@@ -28,10 +29,18 @@ public class DIalogueData : MonoBehaviour
     public IEnumerator StepThourghDialogue(DialogueObject dialogueObject)
     {
         
-        foreach(string dialogue in dialogueObject.Dialogue)
+ 
+        for(int i=0; i< dialogueObject.Dialogue.Length; i++)
         {
+            string dialogue = dialogueObject.Dialogue[i];
             yield return typeWritterEffect.Run(dialogue, textLabel);
+
+            if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+        }
+        if (dialogueObject.HasResponses)
+        {
+            responseHandler.ShowResponse(dialogueObject.Responses);
         }
         CloseDialogue();
     }
