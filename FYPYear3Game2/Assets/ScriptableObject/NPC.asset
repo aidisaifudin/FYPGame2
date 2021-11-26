@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8f129c57f39de44989400dca174705a, type: 3}
   m_Name: NPC
   m_EditorClassIdentifier: 
-  npcID: 2
-  npcName: Mom
-  messages:
-  - text: 
-    responses: []
-  - text: 
-    responses: []
-  - text: 
-    responses: []
+  name: Jeff
+  dialogue:
+  - Hey whats up
+  - 
+  - 
+  - 
+  playerDialogue:
+  - Not much how about you
+  - Where are you from
+  - Goodbye
