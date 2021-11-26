@@ -10,6 +10,8 @@ public class PassengerManager : MonoBehaviour
     public Button pickUpButton;
     public Button dropOffButton;
 
+    public GameObject summary;
+
     public TaxiManager passengerOnBoard;
     void Start()
     {
@@ -64,11 +66,13 @@ public class PassengerManager : MonoBehaviour
         dropOffButton.gameObject.SetActive(false);
         StartCoroutine(PassengerReached());
         Destroy(this.gameObject.transform);
+
+        Earning.instance.EarnMoney();
     }
-            IEnumerator PassengerReached()
-            {
+        IEnumerator PassengerReached()
+        {
           
-                yield return new WaitForSeconds(2);
-                Destroy(this.gameObject);
-            }
+            yield return new WaitForSeconds(2);
+            Destroy(this.gameObject);
+        }
     }

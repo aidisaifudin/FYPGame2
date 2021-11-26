@@ -19,6 +19,11 @@ public class TaxiManager : MonoBehaviour
 
     public Button pickUpButton;
     public Button dropOffButton;
+
+    public float timer;
+    private float endDay = 30.0f;
+
+    public GameObject summary;
     void Start()
     {
         pickUpButton.gameObject.SetActive(false);
@@ -28,6 +33,7 @@ public class TaxiManager : MonoBehaviour
 
         passengerOnBoard = false;
         passengerInTaxi = false;
+        summary.SetActive(false);
     }
     private void Update()
     {
@@ -42,9 +48,13 @@ public class TaxiManager : MonoBehaviour
         {
             dropOffButton.gameObject.SetActive(true);
         }
-        //else
+
+        //timer += Time.deltaTime;
+
+        //if(timer == endDay)
         //{
-        //    dropOffButton.gameObject.SetActive(false);
+        //    summary.SetActive(true);
+        //    Time.timeScale = 0;
         //}
     }
 
@@ -61,6 +71,14 @@ public class TaxiManager : MonoBehaviour
         if (other.gameObject.tag == "Destination")
         {
             destinationReached = false;
+            StartCoroutine(EndDay());
         }
+    }
+
+    IEnumerator EndDay()
+    {
+        yield return new WaitForSeconds(5);
+        summary.SetActive(true);
+        Time.timeScale = 0;
     }
 }
