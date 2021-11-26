@@ -18,7 +18,8 @@ public class DIalogueData : MonoBehaviour
     private void Start()
     {
         typeWritterEffect = GetComponent<TypeWritterEffect>();
-        CloseDialogue();
+        responseHandler = GetComponent<ResponseHandler>();
+        CloseDialogueBox();
         ShowDialogue(testDialogue);
     }
     public void ShowDialogue(DialogueObject dialogueObject)
@@ -28,8 +29,6 @@ public class DIalogueData : MonoBehaviour
     }
     public IEnumerator StepThourghDialogue(DialogueObject dialogueObject)
     {
-        
- 
         for(int i=0; i< dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
@@ -42,9 +41,12 @@ public class DIalogueData : MonoBehaviour
         {
             responseHandler.ShowResponse(dialogueObject.Responses);
         }
-        CloseDialogue();
+        else
+        {
+            CloseDialogueBox();
+        }
     }
-    private void CloseDialogue()
+    private void CloseDialogueBox()
     {
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;

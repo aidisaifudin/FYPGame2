@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e82dd3be39c38844858b73d66050457, type: 3}
-  m_Name: FirstPerson
+  m_Script: {fileID: 11500000, guid: 4bf2dbe5171483744a3346a5570ca531, type: 3}
+  m_Name: No
   m_EditorClassIdentifier: 
-  m_CharacterName: Bobby
-  sprite:
-  - {fileID: -1081358389293397885, guid: f215fb59e03652b4382fc3e9823d2dd7, type: 3}
+  dialogue: []
+  responses: []
