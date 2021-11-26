@@ -16,7 +16,7 @@ public class ResponseHandler : MonoBehaviour
 
     List<GameObject> tempResponseButton = new List<GameObject>();
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         dialogueUI = GetComponent<DIalogueData>();
     }
@@ -35,7 +35,7 @@ public class ResponseHandler : MonoBehaviour
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
-            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickResponse(response));
+            responseButton.GetComponent<Button>().onClick.AddListener(call:() => OnPickResponse(response));
             tempResponseButton.Add(responseButton);
             responseBoxHeight += responseButtonTemplate.sizeDelta.y;
         }
