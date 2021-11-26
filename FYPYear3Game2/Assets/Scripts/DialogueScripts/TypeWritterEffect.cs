@@ -7,16 +7,7 @@ public class TypeWritterEffect : MonoBehaviour
 {
     [SerializeField]private float typewritterSpeed = 50f;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public Coroutine Run(string textToType,TMP_Text textLabel)
     {
 
@@ -35,7 +26,7 @@ public class TypeWritterEffect : MonoBehaviour
             charIndex = Mathf.FloorToInt(t);
 
             charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);
-            textLabel.text = textToType.Substring(charIndex);
+            textLabel.text = textToType.Substring(0,charIndex);
             yield return null;
         }
         textLabel.text = textToType;

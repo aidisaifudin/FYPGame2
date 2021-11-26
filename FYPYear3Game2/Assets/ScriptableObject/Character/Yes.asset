@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf2dbe5171483744a3346a5570ca531, type: 3}
   m_Name: Yes
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - Congratz
   responses: []
