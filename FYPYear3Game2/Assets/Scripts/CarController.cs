@@ -23,11 +23,11 @@ public class CarController : MonoBehaviour
     [SerializeField] private WheelCollider rearRightWheelCollider;
 
     [SerializeField] private Transform frontLeftWheelTransform;
-    [SerializeField] private Transform frontRightWheelTransform;
+   // [SerializeField] private Transform frontRightWheelTransform;
     [SerializeField] private Transform rearLeftWheelTransform;
-    [SerializeField] private Transform rearRightWheelTransform;
+   // [SerializeField] private Transform rearRightWheelTransform;
 
-    public float angleBetween = 0.0f;
+    private float angleBetween = 0.0f;
     public Transform target;
     private void FixedUpdate()
     {
@@ -79,9 +79,9 @@ public class CarController : MonoBehaviour
     private void UpdateWheels()
     {
         UpdateSingleWheel(frontLeftWheelCollider, frontLeftWheelTransform);
-        UpdateSingleWheel(frontRightWheelCollider, frontRightWheelTransform);
+      //  UpdateSingleWheel(frontRightWheelCollider, frontRightWheelTransform);
         UpdateSingleWheel(rearLeftWheelCollider, rearLeftWheelTransform);
-        UpdateSingleWheel(frontRightWheelCollider, rearRightWheelTransform);
+      //  UpdateSingleWheel(frontRightWheelCollider, rearRightWheelTransform);
     }
     
     private void UpdateSingleWheel(WheelCollider wheelCollider, Transform wheelTransform)
