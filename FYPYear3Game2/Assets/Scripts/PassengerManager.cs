@@ -18,8 +18,6 @@ public class PassengerManager : MonoBehaviour
         passengerOnBoard = player.GetComponent<TaxiManager>();
         pickUpButton.gameObject.SetActive(false);
         dropOffButton.gameObject.SetActive(false);
-
-
     }
 
     private void Update()
