@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class JayWalkerCollider : MonoBehaviour
 {
     public GameObject losePanel;
@@ -36,8 +38,10 @@ public class JayWalkerCollider : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         losePanel.SetActive(true);
-        yield return new WaitForSeconds(2);
-        losePanel.SetActive(false);
-        
+        //yield return new WaitForSeconds(2);
+        //losePanel.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+
     }
 }
