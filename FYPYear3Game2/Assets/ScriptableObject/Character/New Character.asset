@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bf2dbe5171483744a3346a5570ca531, type: 3}
-  m_Name: No
+  m_Script: {fileID: 11500000, guid: 818042f30277c294c9c27a2b9da6b721, type: 3}
+  m_Name: New Character
   m_EditorClassIdentifier: 
-  dialogue:
-  - Plz choose Yes
-  responses: []
-  speakerLeft: {fileID: 0}
+  fullName: 
+  sprite:
+  - {fileID: 21300000, guid: ce5937c467cbd2a40b7da9f02fdfdb48, type: 3}

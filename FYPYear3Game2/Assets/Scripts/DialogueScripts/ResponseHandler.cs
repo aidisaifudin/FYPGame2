@@ -12,7 +12,7 @@ public class ResponseHandler : MonoBehaviour
     [SerializeField] private RectTransform responseContainer;
 
     private DIalogueData dialogueUI;
-    
+    public GameObject sheild;
 
     List<GameObject> tempResponseButton = new List<GameObject>();
     // Start is called before the first frame update
@@ -58,6 +58,15 @@ public class ResponseHandler : MonoBehaviour
     
     
     
+    }
+    public void Test()
+    {
+        sheild.SetActive(true);
+        Debug.Log("Hello");
+    }
+    public void No()
+    {
+        Debug.Log("No");
     }
 
 }

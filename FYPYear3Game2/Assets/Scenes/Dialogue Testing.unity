@@ -963,6 +963,7 @@ MonoBehaviour:
   responseBox: {fileID: 67965620}
   responseButtonTemplate: {fileID: 785570084}
   responseContainer: {fileID: 423445834}
+  sheild: {fileID: 1815491057}
 --- !u!1 &1500715865
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,12 +13,8 @@ MonoBehaviour:
   m_Name: FirstConversation
   m_EditorClassIdentifier: 
   dialogue:
-  - 'YO
-
-    Hi would you like to buy'
-  - 'Second
-
-    this is for you'
+  - Would you like to buy insurance?
+  - Is good to have insurance
   responses:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: 313cbc377baabec4b929b85532916c23, type: 2}
