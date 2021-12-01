@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Destination
-  - TrafficLight
   layers:
   - Default
   - TransparentFX
@@ -15,11 +14,11 @@ TagManager:
   - UI
   - Cube1
   - 
-  - Road
-  - Traffic
-  - Buildings
-  - Obstacle
-  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
