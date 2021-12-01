@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bf2dbe5171483744a3346a5570ca531, type: 3}
-  m_Name: Yes
+  m_Name: New Dialogue Object
   m_EditorClassIdentifier: 
   dialogue:
-  - Congratz
+  - No I do not want
   responses: []
-  speakerLeft: {fileID: 0}
-  shield: {fileID: 21300000, guid: 03ea069d2de24704888b49b2ac437e74, type: 3}
+  speakerLeft: {fileID: 11400000, guid: 7d28da7f0770ae54e8fff9a640bdc0de, type: 2}
+  shield: {fileID: 6398461269807547266, guid: 626836fe61bed674d8480811078b6e04, type: 3}

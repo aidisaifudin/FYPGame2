@@ -66,6 +66,7 @@ public class ResponseHandler : MonoBehaviour
     }
     public void No()
     {
+
         Debug.Log("No");
     }
 

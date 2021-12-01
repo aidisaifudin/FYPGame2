@@ -19,4 +19,6 @@ MonoBehaviour:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: 313cbc377baabec4b929b85532916c23, type: 2}
   - responseText: No
-    dialogueObject: {fileID: 11400000, guid: bbc7fa86398bbc24189d4c40a9d169ea, type: 2}
+    dialogueObject: {fileID: 11400000, guid: c208b5c5bbab569409dc8ff05e285048, type: 2}
+  speakerLeft: {fileID: 0}
+  shield: {fileID: 0}

@@ -9,6 +9,7 @@ using TMPro;
 
 public class DIalogueData : MonoBehaviour
 {
+    public GameObject speakerLeft;
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textLabel;
     [SerializeField] private DialogueObject testDialogue;
