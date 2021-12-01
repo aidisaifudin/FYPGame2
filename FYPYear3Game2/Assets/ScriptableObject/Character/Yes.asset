@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Yes
   m_EditorClassIdentifier: 
   dialogue:
-  - Congratz
+  - I would like to buy car insurance
   responses: []
   speakerLeft: {fileID: 0}
   shield: {fileID: 21300000, guid: 03ea069d2de24704888b49b2ac437e74, type: 3}

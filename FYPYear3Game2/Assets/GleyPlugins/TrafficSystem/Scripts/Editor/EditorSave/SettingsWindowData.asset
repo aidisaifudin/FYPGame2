@@ -22,9 +22,9 @@ MonoBehaviour:
       viewLaneChanges: 0
   viewRoadsSave:
     viewRoadsSettings:
-      viewLanes: 0
-      viewWaypoints: 0
-      viewLaneChanges: 0
+      viewLanes: 1
+      viewWaypoints: 1
+      viewLaneChanges: 1
   connectRoadsSave:
     viewRoadsSettings:
       viewLanes: 0
@@ -38,9 +38,9 @@ MonoBehaviour:
       viewLaneChanges: 0
     moveTool: 1
     maxSpeed: 50
-    globalCarList: 
+    globalCarList: 01000000
   roadDefaults:
-    nrOfLanes: 2
+    nrOfLanes: 4
     laneWidth: 4
     waypointDistance: 4
   roadColors:
