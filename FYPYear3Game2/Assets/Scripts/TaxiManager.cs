@@ -5,73 +5,57 @@ using UnityEngine.UI;
 
 public class TaxiManager : MonoBehaviour
 {
-
-
-    public Transform passenger;
-
+    public GameObject passenger;
+    public bool passengerInTaxi;
     public GameObject destination;
     public bool destinationReached;
-
-    public float pickUpRange;
-
-    public static bool passengerOnBoard;
-    public static bool passengerInTaxi;
-
-    public Button pickUpButton;
-    public Button dropOffButton;
-
-    public float timer;
-    private float endDay = 30.0f;
-
+    public GameObject reachedPassenger;
     public GameObject summary;
+    //public GameObject arrow;
+
+    // Start is called before the first frame update
     void Start()
     {
-        pickUpButton.gameObject.SetActive(false);
-        dropOffButton.gameObject.SetActive(false);
-
+        passenger = GameObject.FindGameObjectWithTag("Passenger");
         destination = GameObject.FindGameObjectWithTag("Destination");
-
-        passengerOnBoard = false;
         passengerInTaxi = false;
+        destinationReached = false;
+        reachedPassenger.SetActive(false);
         summary.SetActive(false);
+        //arrow.SetActive(false);
+
     }
-    private void Update()
+
+    // Update is called once per frame
+    void Update()
     {
-        //check player in range, no passenger in taxi
-        Vector3 distanceToPassenger = passenger.position - transform.position;
-        if (!passengerOnBoard && distanceToPassenger.magnitude <= pickUpRange && !passengerInTaxi)
+        if (passengerInTaxi)
         {
-            pickUpButton.gameObject.SetActive(true);
+            //passenger.transform.SetParent(this.transform);
+            Destroy(passenger);
+            Debug.Log("Gone");
         }
 
-        if (passengerOnBoard && destinationReached == true)
+        if (destinationReached)
         {
-            dropOffButton.gameObject.SetActive(true);
+            reachedPassenger.SetActive(true);
+            StartCoroutine(EndDay());
         }
-
-        //timer += Time.deltaTime;
-
-        //if(timer == endDay)
-        //{
-        //    summary.SetActive(true);
-        //    Time.timeScale = 0;
-        //}
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Destination")
+        if (other.gameObject.tag == "Passenger")
+        {
+            passengerInTaxi = true;
+            //arrow.SetActive(true);
+        }
+        else if (other.gameObject.tag == "Destination")
         {
             destinationReached = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Destination")
-        {
-            destinationReached = false;
-            StartCoroutine(EndDay());
+            
+            Earning.instance.EarnMoney();
+            //arrow.SetActive(true);
         }
     }
 

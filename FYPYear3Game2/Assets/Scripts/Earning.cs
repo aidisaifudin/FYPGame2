@@ -19,7 +19,7 @@ public class Earning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        earningText.text = " Earnings: " + earnings.ToString();
+        earningText.text = " : " + earnings.ToString();
         endOfDayText.text = " Earnings for today: " + earnings.ToString();
     }
 
@@ -32,7 +32,7 @@ public class Earning : MonoBehaviour
     public void EarnMoney()
     {
         earnings += 300;
-        earningText.text = " Earnings: " + earnings.ToString();
+        earningText.text = " : " + earnings.ToString();
         endOfDayText.text = " Earnings for today: " + earnings.ToString();
     }
 }

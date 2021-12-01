@@ -5,72 +5,21 @@ using UnityEngine.UI;
 
 public class PassengerManager : MonoBehaviour
 {
+    public GameObject passenger;
+    public GameObject player;
 
-    public Transform player;
-    public Button pickUpButton;
-    public Button dropOffButton;
-
-    public GameObject summary;
-
-    public TaxiManager passengerOnBoard;
+    // Start is called before the first frame update
     void Start()
     {
-        passengerOnBoard = player.GetComponent<TaxiManager>();
-        pickUpButton.gameObject.SetActive(false);
-        dropOffButton.gameObject.SetActive(false);
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    private void Update()
+    private void OnTriggerEnter(Collider other)
     {
-       
-        //if (Input.GetButtonDown("Pick Up Button"))
-        //{
-        //    PickUp();
-        //}
-
-        //if (Input.GetButtonDown("Drop Off Button"))
-        //{
-        //    DropOff();
-        //}
-    }
-
-
-    public void PickUp()
-    {
-
-        TaxiManager.passengerOnBoard = true;
-
-        //make passenger a child of the taxi and hide it
-        transform.SetParent(player);
-        this.gameObject.SetActive(false);
-
-        //make rigidbody kinematic and boxcollider a trigger
- 
-        pickUpButton.gameObject.SetActive(false);
-    }
-
-
-    public void DropOff()
-    {
-
-        TaxiManager.passengerOnBoard = false;
-
-        //set parent to null
-        transform.SetParent(null);
-        this.gameObject.SetActive(true);
-
-        //make rigidbody not kinematic and boxcollider normal
-
-        dropOffButton.gameObject.SetActive(false);
-        StartCoroutine(PassengerReached());
-        Destroy(this.gameObject.transform);
-
-        Earning.instance.EarnMoney();
-    }
-        IEnumerator PassengerReached()
+        if(other.gameObject.tag == "Player")
         {
-          
-            yield return new WaitForSeconds(2);
-            Destroy(this.gameObject);
+            
         }
     }
+    
+}
