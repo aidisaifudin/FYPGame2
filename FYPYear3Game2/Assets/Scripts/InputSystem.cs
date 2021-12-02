@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum ControlMode { Keyboard = 1 , Touch = 2};
+//public enum ControlMode { Keyboard = 1 , Touch = 2};
 
 public class InputSystem : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class InputSystem : MonoBehaviour
     public void AccelInput(float input){Accel = input;}
     public void SteerInput(float input){ Accel = input; }
     public void BrakeInput(float input){ Brake = input; }
-    CarController
+  
    
 
     // Start is called before the first frame update
