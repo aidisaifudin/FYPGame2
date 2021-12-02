@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarController : MonoBehaviour
 {
     private const string HORIZONTAL = "Horizontal";
     private const string VERTICAL = "Vertical";
+
+    public GameObject upBtn;
+    public GameObject downBtn;
 
     private float horizontalInput;
     private float verticalInput;
@@ -45,7 +49,15 @@ public class CarController : MonoBehaviour
     }
     public void Up()
     {
-        
+        float angle = maxAngle * VirtualInput.GetAxis("Horizontal");
+
+    }
+    public void Update()
+    {
+        if (Input.GetButtonDown("Horizontal"))
+        {
+            horizontalInput = Input.GetAxis(HORIZONTAL);
+        }
     }
     public void Left()
     {

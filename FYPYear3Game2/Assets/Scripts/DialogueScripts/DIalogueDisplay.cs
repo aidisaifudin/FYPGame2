@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class DialogueDisplay : MonoBehaviour
+public class DlalogueDisplay : MonoBehaviour
 {
     public Conversation conversation;
     public GameObject speakerLeft;
     public GameObject speakerRight;
 
     SpeakerUI speakerUILeft;
-    SpeakerUI speakerUICenter;
+
     SpeakerUI speakerUIRight;
 
     int activeLineIndex = 0;
