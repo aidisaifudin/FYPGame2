@@ -49,7 +49,7 @@ public class CarController : MonoBehaviour
     }
     public void Up()
     {
-        float angle = maxAngle * VirtualInput.GetAxis("Horizontal");
+       // float angle = maxSteerAngle * VirtualInput.GetAxis("Horizontal");
 
     }
     public void Update()

@@ -1,20 +1,22 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace GleyTrafficSystem
 {
     public class UIInput : MonoBehaviour
     {
-        //Events used for UI buttons only on mobile device
-#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+
 
         public delegate void ButtonDown(string button);
         public static event ButtonDown onButtonDown;
         public static void TriggerButtonDownEvent(string button)
         {
+
             if (onButtonDown != null)
             {
                 onButtonDown(button);
+                
             }
         }
 
@@ -28,7 +30,7 @@ namespace GleyTrafficSystem
             }
         }
         bool left, right, up, down;
-#endif
+
 
         float horizontalInput;
         float verticalInput;
@@ -39,17 +41,17 @@ namespace GleyTrafficSystem
         /// <returns></returns>
         public UIInput Initializ()
         {
-#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+
 
             onButtonDown += PointerDown;
             onButtonUp += PointerUp;
-#else
+
             GameObject steeringUI = GameObject.Find("SteeringUI");
             if (steeringUI)
             {
                 steeringUI.SetActive(false);
             }
-#endif
+
             return this;
         }
 
@@ -79,7 +81,7 @@ namespace GleyTrafficSystem
         /// </summary>
         private void Update()
         {
-#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+
             if (left)
             {
                 horizontalInput -= Time.deltaTime;
@@ -114,14 +116,14 @@ namespace GleyTrafficSystem
             }
 
             verticalInput = Mathf.Clamp(verticalInput, -1, 1);
-#else
+
             horizontalInput = Input.GetAxis("Horizontal");
             verticalInput = Input.GetAxis("Vertical");
-#endif
+
         }
 
         //Click event handlers for mobile devices
-#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+
         private void PointerDown(string name)
         {
             if(name == "Restart")
@@ -176,6 +178,6 @@ namespace GleyTrafficSystem
             onButtonDown -= PointerDown;
             onButtonUp -= PointerUp;
         }
-#endif
+
     }
 }
