@@ -28,17 +28,17 @@ public class InputSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(control == ControlMode.Keyboard)
-        {
-            Accel = Input.GetAxis("Vertical");
-            Steer = Input.GetAxis("Horizontal");
-            Brake = Input.GetAxis("Jump");
-            UI.SetActive(false);
-        }
-        else
-        {
-            UI.SetActive(true);
-        }
+        //if(control == ControlMode.Keyboard)
+        //{
+        //    Accel = Input.GetAxis("Vertical");
+        //    Steer = Input.GetAxis("Horizontal");
+        //    Brake = Input.GetAxis("Jump");
+        //    UI.SetActive(false);
+        //}
+        //else
+        //{
+        //    UI.SetActive(true);
+        //}
     }
 
      void FixedUpdate()
