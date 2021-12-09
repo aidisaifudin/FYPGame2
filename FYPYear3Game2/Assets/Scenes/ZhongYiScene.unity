@@ -2157,7 +2157,11 @@ Transform:
   - {fileID: 932659894}
   - {fileID: 732185416}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 21
+=======
+  m_RootOrder: 17
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &77437567
 GameObject:
@@ -2575,7 +2579,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
 --- !u!4 &86594231 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 86594230}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &90520923
@@ -3730,7 +3734,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 6fdcab7581a8f98428a6b24b69fb2919, type: 3}
 --- !u!4 &130373225 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6fdcab7581a8f98428a6b24b69fb2919, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 130373224}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &131273712
@@ -3804,7 +3808,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &131273713 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 131273712}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &134551470
@@ -3878,7 +3882,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
 --- !u!4 &134551471 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 134551470}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &136776869
@@ -7745,7 +7749,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
 --- !u!4 &265543576 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 265543575}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &265870586
@@ -8213,7 +8217,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &277582647 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 277582646}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &277840685
@@ -8700,7 +8704,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
 --- !u!4 &284486304 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 284486303}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &284839537
@@ -9816,7 +9820,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
 --- !u!4 &333837052 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 333837051}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &339637131
@@ -11429,9 +11433,14 @@ Transform:
   - {fileID: 2125641553}
   - {fileID: 2138378727}
   - {fileID: 2142175174}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   - {fileID: 865414005}
   m_Father: {fileID: 0}
   m_RootOrder: 19
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390388704
 GameObject:
@@ -12726,7 +12735,11 @@ Transform:
   - {fileID: 1025373629}
   - {fileID: 1214315632}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 20
+=======
+  m_RootOrder: 16
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &456205438
 PrefabInstance:
@@ -13239,7 +13252,11 @@ Transform:
   - {fileID: 1457587897}
   - {fileID: 1268728765}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 8
+=======
+  m_RootOrder: 4
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &474372926
 PrefabInstance:
@@ -13884,7 +13901,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &496796647 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 496796646}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &497770072
@@ -13958,7 +13975,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
 --- !u!4 &497770073 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 497770072}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &498805521
@@ -18550,7 +18567,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &645010702 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 645010701}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &645299504
@@ -18682,7 +18699,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
 --- !u!4 &652725129 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 652725128}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &653397075
@@ -19228,7 +19245,11 @@ Transform:
   - {fileID: 1421318084}
   - {fileID: 1653160022}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 9
+=======
+  m_RootOrder: 5
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673125046
 GameObject:
@@ -20344,7 +20365,11 @@ Transform:
   - {fileID: 86314461}
   - {fileID: 175142131}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 10
+=======
+  m_RootOrder: 6
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &693834982
 GameObject:
@@ -20989,7 +21014,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &705951949 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 705951948}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &710414368
@@ -22935,7 +22960,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &751444556 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 751444555}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &752041491
@@ -23400,7 +23425,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &761299443 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 761299442}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &764187109
@@ -25071,7 +25096,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &808275708 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 808275707}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &812610101
@@ -27577,7 +27602,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
 --- !u!4 &868580494 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 868580493}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &872996560
@@ -28063,7 +28088,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &890975414 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 890975413}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &892012462
@@ -29013,7 +29038,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &910834585 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 910834584}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &911089784
@@ -30910,7 +30935,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &980111309 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 980111308}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &982086034
@@ -31318,7 +31343,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 15
+=======
+  m_RootOrder: 11
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &993264581
 PrefabInstance:
@@ -31540,7 +31569,11 @@ Transform:
   - {fileID: 1871616970}
   - {fileID: 2083439473}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 18
+=======
+  m_RootOrder: 14
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &997422053
 PrefabInstance:
@@ -36032,7 +36065,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
 --- !u!4 &1152445796 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1152445795}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1161211686
@@ -36302,7 +36335,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &1168921729 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1168921728}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1169946062
@@ -38145,7 +38178,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
 --- !u!4 &1231545588 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cabdd7c5739568c41a60e159ea328a69, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1231545587}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1239299450
@@ -39321,7 +39354,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &1307923031 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1307923030}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1311762282
@@ -42119,7 +42152,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 12
+=======
+  m_RootOrder: 8
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1420968055
 PrefabInstance:
@@ -42609,7 +42646,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
 --- !u!4 &1441009729 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1441009728}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1443199905
@@ -43427,7 +43464,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 14
+=======
+  m_RootOrder: 10
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1461066010
 PrefabInstance:
@@ -43849,7 +43890,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
 --- !u!4 &1467235860 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1467235859}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1469606149
@@ -47389,7 +47430,11 @@ RectTransform:
   - {fileID: 271024177}
   - {fileID: 969201835}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 13
+=======
+  m_RootOrder: 9
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -50607,7 +50652,11 @@ Transform:
   - {fileID: 768758934}
   - {fileID: 175155006}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 11
+=======
+  m_RootOrder: 7
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1666227429
 PrefabInstance:
@@ -53759,7 +53808,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 17
+=======
+  m_RootOrder: 13
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1785619236
 GameObject:
@@ -56904,7 +56957,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a9164a13e59089f4ca6435d34571d0f3, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
       value: 7
+=======
+      value: 2
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9164a13e59089f4ca6435d34571d0f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57085,7 +57142,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &1887427281 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1887427280}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1887971176
@@ -59140,6 +59197,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8668395188314280707, guid: a52ff675389c66d45a57f0f1645bbeb8, type: 3}
   m_PrefabInstance: {fileID: 1958542048}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1961329523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -211.26459
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2256627
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.133194
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
+      propertyPath: m_Name
+      value: TrafficLight_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e76a1bf44f9074499eb053576d71bde, type: 3}
 --- !u!1 &1963436251
 GameObject:
   m_ObjectHideFlags: 0
@@ -62102,9 +62216,15 @@ Transform:
   m_LocalPosition: {x: -5.846161, y: 24.53196, z: 34.979687}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_Father: {fileID: 752041492}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 60.453, y: 68.043, z: -19.37}
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
 --- !u!1 &2044745673
 GameObject:
   m_ObjectHideFlags: 0
@@ -62199,7 +62319,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:FYPYear3Game2/Assets/Scenes/ZhongYiScene.unity
   m_RootOrder: 16
+=======
+  m_RootOrder: 12
+>>>>>>> Stashed changes:FYPYear3Game2/Assets/Scenes/AlphaScene/ZhongYiScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2045740463
 PrefabInstance:
@@ -62260,7 +62384,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
 --- !u!4 &2045740464 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2045740463}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2045797549
@@ -63550,7 +63674,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
 --- !u!4 &2081988075 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2081988074}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2082372184
@@ -64304,7 +64428,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
 --- !u!4 &2102881494 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2102881493}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2103828719
@@ -64832,7 +64956,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &2113411571 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2113411570}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2113642303
@@ -64894,7 +65018,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
 --- !u!4 &2113642304 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9d4bbb8328d692841b00939a275c9fb8, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2113642303}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2113655745
@@ -65182,7 +65306,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 6fdcab7581a8f98428a6b24b69fb2919, type: 3}
 --- !u!4 &2115932021 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6fdcab7581a8f98428a6b24b69fb2919, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2115932020}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2117293159
@@ -65430,7 +65554,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
 --- !u!4 &2125641553 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9c2d8d6533efb054db0ef1bd52d7923e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2125641552}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2125723610
@@ -66034,7 +66158,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
 --- !u!4 &2138378727 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fabba6fa1dc2a0640bcf659f687047bb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2138378726}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2140186800
@@ -66310,7 +66434,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
 --- !u!4 &2142175174 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0eb57fb1a2fb0674091cc48b0073fb7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2142175173}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2142684315
