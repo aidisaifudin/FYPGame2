@@ -6,10 +6,10 @@ using UnityEngine;
 public class CarSteerController : MonoBehaviour
 {
 
-    public GameObject front_left_wheel_object;
-    public GameObject front_right_wheel_object;
-    public GameObject back_left_wheel_object;
-    public GameObject back_right_wheel_object;
+    //public GameObject front_left_wheel_object;
+    //public GameObject front_right_wheel_object;
+    //public GameObject back_left_wheel_object;
+    //public GameObject back_right_wheel_object;
 
     public WheelCollider Front_Left_Wheel_Component;
     public WheelCollider Front_Right_Wheel_Component;
