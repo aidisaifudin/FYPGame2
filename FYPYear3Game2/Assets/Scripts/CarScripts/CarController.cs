@@ -8,8 +8,7 @@ public class CarController : MonoBehaviour
     private const string HORIZONTAL = "Horizontal";
     private const string VERTICAL = "Vertical";
 
-    public GameObject upBtn;
-    public GameObject downBtn;
+   
 
     private float horizontalInput;
     private float verticalInput;
