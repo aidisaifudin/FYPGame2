@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a808236791f253b40bacc463c0c58b2d, type: 3}
+  m_Name: Dialogue Option
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - myName: fag
+    portrait: {fileID: -1081358389293397885, guid: f215fb59e03652b4382fc3e9823d2dd7, type: 3}
+    myText: line 1
+  - myName: fag2
+    portrait: {fileID: 3019634356403327391, guid: f215fb59e03652b4382fc3e9823d2dd7, type: 3}
+    myText: line 2
+  - myName: eqw
+    portrait: {fileID: -5022769371802930440, guid: 02c8367c2c3d9dd4fa35a0ce4007e672, type: 3}
+    myText: line 3
+  optioninfo:
+  - buttonName: 
+  - buttonName: 
