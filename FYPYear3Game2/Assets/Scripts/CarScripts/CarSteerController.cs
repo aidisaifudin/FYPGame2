@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class CarSteerController : MonoBehaviour
 {
 
-   // public GameObject Front_Left_Wheel_Object;
-   // public GameObject Front_Right_Wheel_Object;
-   // public GameObject Back_Left_Wheel_Object;
-   // public GameObject Back_Right_Wheel_Object;
+    public GameObject front_left_wheel_object;
+    public GameObject front_right_wheel_object;
+    public GameObject back_left_wheel_object;
+    public GameObject back_right_wheel_object;
 
     public WheelCollider Front_Left_Wheel_Component;
     public WheelCollider Front_Right_Wheel_Component;
