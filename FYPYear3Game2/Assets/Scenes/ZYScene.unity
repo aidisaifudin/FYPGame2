@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.32800817, g: 0.3579454, b: 0.3679245, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -5984,7 +5984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &208224054
 Transform:
   m_ObjectHideFlags: 0
@@ -27358,9 +27358,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7468597203052581925, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7915133
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468597203052581925, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.21094278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468597203052581925, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
+      propertyPath: m_Size.z
+      value: 1.3371775
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468597203052581925, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
+      propertyPath: m_Center.x
+      value: -0.12777539
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468597203052581925, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
+      propertyPath: m_Center.z
+      value: -0.011056332
+      objectReference: {fileID: 0}
     - target: {fileID: 7468597203052581926, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
       propertyPath: m_Name
       value: CarTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468597203052581926, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7849238934782250652, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
       propertyPath: m_RootOrder
@@ -27425,6 +27449,10 @@ PrefabInstance:
     - target: {fileID: 8914336996079089095, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
       propertyPath: m_Mass
       value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8914336996079089095, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8914336996079089095, guid: a9c35d2a6ec2aeb4cade8aea7b6ad7d4, type: 3}
       propertyPath: m_Constraints
@@ -41211,7 +41239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1396901116
 Transform:
   m_ObjectHideFlags: 0
@@ -63099,8 +63127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shouldRotate: 1
   target: {fileID: 1655315523}
-  distance: 10
-  height: 5
+  distance: 7
+  height: 3
   heightDamping: 2
   rotationDamping: 3
 --- !u!1001 &2081988074
