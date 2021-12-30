@@ -123,6 +123,40 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7234696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7234697}
+  m_Layer: 0
+  m_Name: C1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7234697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 448194289}
+  - {fileID: 338857990}
+  - {fileID: 485344595}
+  - {fileID: 1236323493}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &18530773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -309,6 +343,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
   m_PrefabInstance: {fileID: 61350888}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &69416003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 69416004}
+  m_Layer: 0
+  m_Name: C4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &69416004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69416003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &72320409
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +472,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
   m_PrefabInstance: {fileID: 73563829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &119201519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1513115781}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &119201520 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 119201519}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &136394378
 PrefabInstance:
@@ -1060,6 +1186,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
   m_PrefabInstance: {fileID: 265218673}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &281092952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 373579579548343564, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 road road 2.0 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+--- !u!4 &281092953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+  m_PrefabInstance: {fileID: 281092952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330529595
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1344,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
   m_PrefabInstance: {fileID: 337042522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &338857989
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7234697}
+    m_Modifications:
+    - target: {fileID: 373579579548343564, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 road road 2.0 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+--- !u!4 &338857990 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+  m_PrefabInstance: {fileID: 338857989}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &366513318
 PrefabInstance:
@@ -1259,6 +1509,130 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &448194288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7234697}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &448194289 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 448194288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &485344594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7234697}
+    m_Modifications:
+    - target: {fileID: 373579579548343564, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 road road 2.0 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+--- !u!4 &485344595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+  m_PrefabInstance: {fileID: 485344594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &501521512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1631,6 +2005,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
   m_PrefabInstance: {fileID: 571904258}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &588982199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &588982200 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 588982199}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &589363698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1816,6 +2252,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
   m_PrefabInstance: {fileID: 632073255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &693357351
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1513115781}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &693357352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 693357351}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &735858534
 PrefabInstance:
@@ -2188,6 +2686,130 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
   m_PrefabInstance: {fileID: 835340378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &841474107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 373579579548343564, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 road road 2.0 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+--- !u!4 &841474108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
+  m_PrefabInstance: {fileID: 841474107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &888871076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1513115781}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &888871077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 888871076}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &900695578
 GameObject:
@@ -2635,6 +3257,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
   m_PrefabInstance: {fileID: 1070922952}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1074054991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &1074054992 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 1074054991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1084726271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2945,6 +3629,106 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
   m_PrefabInstance: {fileID: 1210879935}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1236323492
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7234697}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &1236323493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 1236323492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1254314100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254314101}
+  m_Layer: 0
+  m_Name: C2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1254314101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254314100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1580003448}
+  - {fileID: 281092953}
+  - {fileID: 841474108}
+  - {fileID: 1975949223}
+  - {fileID: 1794539855}
+  - {fileID: 1074054992}
+  - {fileID: 1940092881}
+  - {fileID: 588982200}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1278310310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3698,6 +4482,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
   m_PrefabInstance: {fileID: 1479235294}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1513115780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1513115781}
+  m_Layer: 0
+  m_Name: C3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1513115781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513115780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2063637181}
+  - {fileID: 119201520}
+  - {fileID: 1812396940}
+  - {fileID: 693357352}
+  - {fileID: 888871077}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1550521194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3759,6 +4578,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
   m_PrefabInstance: {fileID: 1550521194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1580003447
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &1580003448 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 1580003447}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1584449228
 PrefabInstance:
@@ -4230,6 +5111,130 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
   m_PrefabInstance: {fileID: 1720111347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1794539854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639342634116913556, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 dual zebra (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+--- !u!4 &1794539855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+  m_PrefabInstance: {fileID: 1794539854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1812396939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1513115781}
+    m_Modifications:
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800292047171149272, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 road inter (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+--- !u!4 &1812396940 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+  m_PrefabInstance: {fileID: 1812396939}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1821105038
 PrefabInstance:
@@ -4856,6 +5861,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
   m_PrefabInstance: {fileID: 1938479736}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1940092880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800292047171149272, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 road inter (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+--- !u!4 &1940092881 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7425280089782257506, guid: 835e3c616bb57534db8d83b30d931292, type: 3}
+  m_PrefabInstance: {fileID: 1940092880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1944130310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4917,6 +5984,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1037208941381142454, guid: d6028dcc346326041bbacd25e03a2164, type: 3}
   m_PrefabInstance: {fileID: 1944130310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1975949222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254314101}
+    m_Modifications:
+    - target: {fileID: 5128450364947621117, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_Name
+      value: aft alp roads 2 zebra crossing tile (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+--- !u!4 &1975949223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
+  m_PrefabInstance: {fileID: 1975949222}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1996372777
 PrefabInstance:
@@ -5205,6 +6334,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5503463357872389703, guid: 9c55835a4405d264ab473acfe84bc105, type: 3}
   m_PrefabInstance: {fileID: 2060851885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2063637180
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1513115781}
+    m_Modifications:
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639342634116913556, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+      propertyPath: m_Name
+      value: aft alp 2 dual zebra (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+--- !u!4 &2063637181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 258031265465058094, guid: 84a3e1f49f38ba24bb4a306dd8e81c48, type: 3}
+  m_PrefabInstance: {fileID: 2063637180}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2103642755
 PrefabInstance:
