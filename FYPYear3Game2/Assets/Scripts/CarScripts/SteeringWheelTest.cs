@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Events;
 using System.Collections;
 
-public class SteeringWheel : MonoBehaviour
+public class SteeringWheelTest : MonoBehaviour
 {
     public Graphic UI_Element;
 
