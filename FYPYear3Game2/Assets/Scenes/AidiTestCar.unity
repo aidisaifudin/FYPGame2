@@ -928,9 +928,9 @@ MonoBehaviour:
   - {fileID: 597681300}
   - {fileID: 597681301}
   m_WheelMeshes:
-  - {fileID: 597681297}
   - {fileID: 597681299}
   - {fileID: 597681298}
+  - {fileID: 597681297}
   - {fileID: 597681297}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 25
